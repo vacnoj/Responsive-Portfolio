@@ -13,12 +13,14 @@ h1 {
 }
 h2, h3, h4, h5, h6 {
 	font-family: Georgia;
+	padding-bottom: 20px;
 	border-bottom: solid #cccccc;
 	color: #4aaaa5;
 }
 
 p {
 	font-family: arial;
+	font-size: 14pt;
 }
 #biography {
 	margin: auto;
@@ -102,7 +104,6 @@ textarea {
 .portfolioImages {
 	height: 200px;
 	width: 200px;
-/*	float: left;*/
 	margin: 20px 50px;
 }
 aside {
@@ -140,23 +141,92 @@ footer {
 }
 
 @media screen and (max-width: 980px ) {
-	body {
-		background-color: blue;
+	header {
+		margin-left: 125px;
+	}
+	.content {
+		width: 980px;
+	}
+	section {
+		margin-left: 125px;
+		margin-right: 20px;
+		max-width: 420px;
+		height: 850px;
+	}
+
+	#portrait {
+		position: relative;
+		float: none;
+		text-align: center;
+		display: inline-block;
+	}
+	#biography {
+		position: absolute;
+		bottom: 25%;
+		left: 25%;
+	}
+	aside {
+		margin-left: 20px;
+	}
+	.portfolioImages {
+		height: 100px;
+		width: 80%;
+		display: block;
+		margin: 40px auto;
+	}
+
+	.inputs {
+		width: 360px;
+	}
+
+	textarea {
+		width: 360px;
 	}
 }
 
-}
+
 @media screen and (max-width: 768px ) {
-	
-	body {
+	header {
+		margin-left: 125px;
+	}
+	.content {
+		width: 980px;
+	}
+	section {
 		background-color: blue;
 	}
-	
+
+	#portrait {
+		position: relative;
+		float: none;
+		text-align: center;
+		display: inline-block;
+	}
+	#biography {
+		position: absolute;
+		bottom: 25%;
+		left: 25%;
+	}
+	aside {
+		margin-left: 20px;
+	}
+	.portfolioImages {
+		height: 100px;
+		width: 80%;
+		display: block;
+		margin: 40px auto;
+	}
+
+	.inputs {
+		width: 360px;
+	}
+
+	textarea {
+		width: 360px;
+	}	
 }
 @media screen and (max-width: 640px ) {
 
-	body {
-		background-color: blue;
-	}
+	
 	
 }
