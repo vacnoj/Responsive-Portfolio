@@ -89,6 +89,7 @@ section {
 	width: 590px;
 	margin: 20px 0px;
 	font-size: 16pt;
+	border: solid #cccccc;
 }
 textarea {
 	text-align: left;
@@ -96,6 +97,7 @@ textarea {
 	width: 590px;
 	margin: 20px 0px;
 	font-size: 16pt;
+	border: solid #cccccc;
 }
 #submit:hover {
 	background-color: deepskyblue;
@@ -147,7 +149,7 @@ footer {
 		margin-left: 75px;
 	}
 	.content {
-		width: 980px;
+		max-width: 980px;
 	}
 	section {
 		margin-left: 166px;
@@ -257,9 +259,8 @@ footer {
 
 @media screen and (max-width: 640px ) {
 	nav{
-		position: fixed;
-		height: 40%;
-		z-index: 1;
+		height: 150px;
+		width: 100%;
 	}
 	header {
 		width: 100%;
@@ -284,9 +285,8 @@ footer {
 	}
 	section {
 		position: relative;
-		top: 200px;
 		margin:  5% 2.5%;
-		max-width: none;
+		width: 95%;
 		height: inherit;
 		width: 95%;
 	}
@@ -301,10 +301,11 @@ footer {
 		margin-bottom: 5%;
 	}
 	aside {
+		top: 150px;
 		float: none;
 		display: inline-block;
-		width: 90%;
-		margin: 0 5% 5% 5%;
+		width: 95%;
+		margin: 0 2.5% 5% 2.5%;
 	}
 	.connectImages {
 		float: left;
@@ -313,11 +314,11 @@ footer {
 		padding-left: 5%;
 	}
 	.portfolioImages {
-		height: 100px;
-		width: 40%;
+		height: 200px;
+		width: 80%;
 		display: inline-block;
 		float: left;
-		margin: 5%
+		margin: 10%
 		
 	}
 
@@ -327,7 +328,7 @@ footer {
 
 	textarea {
 		width: 100%;
-	}	
+	}
 }
 	
 	
