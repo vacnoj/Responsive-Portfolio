@@ -140,15 +140,17 @@ footer {
 	color: #cccccc;
 }
 
+
+
 @media screen and (max-width: 980px ) {
 	header {
-		margin-left: 125px;
+		margin-left: 75px;
 	}
 	.content {
 		width: 980px;
 	}
 	section {
-		margin-left: 125px;
+		margin-left: 166px;
 		margin-right: 20px;
 		max-width: 420px;
 		height: 850px;
@@ -184,49 +186,149 @@ footer {
 	}
 }
 
-
 @media screen and (max-width: 768px ) {
+	
 	header {
-		margin-left: 125px;
+		margin-left: 5%;
+		height: 97px;
+		width: 30%;
+	}
+	#navTable {
+		position: absolute;
+		right: 0px;
+	}
+
+	h1 {
+		font-size: 20pt;
+	}
+
+	h2 ,h3 {
+		text-align: left;
+		padding-left: 5%;
 	}
 	.content {
-		width: 980px;
+		max-width: 768px;
 	}
 	section {
-		background-color: blue;
+		margin:  5%;
+		max-width: none;
+		height: inherit;
+		width: 90%;
+	}
+
+	#portrait {
+		position: relative;
+		float: left;
+	}
+	#biography {
+		position: absolute;
+		bottom: 30%;
+		left: 40%;
+	}
+	aside {
+		float: none;
+		display: inline-block;
+		width: 90%;
+		margin: 0 5% 5% 5%;
+	}
+	.connectImages {
+		float: left;
+	}
+	ul {
+		padding-left: 5%;
+	}
+	.portfolioImages {
+		height: 100px;
+		width: 40%;
+		display: inline-block;
+		float: left;
+		margin: 5%
+		
+	}
+
+	.inputs {
+		width: 100%;
+	}
+
+	textarea {
+		width: 100%;
+	}	
+}
+
+@media screen and (max-width: 640px ) {
+	nav{
+		position: fixed;
+		height: 40%;
+		z-index: 1;
+	}
+	header {
+		width: 100%;
+		margin: 0px;
+	}
+	#navTable {
+		padding-top: 2.5%;
+		position: relative;
+		margin: auto;
+	}
+
+	h1 {
+		font-size: 20pt;
+	}
+
+	h2 ,h3 {
+		text-align: left;
+		padding-left: 5%;
+	}
+	.content {
+		max-width: 640px;
+	}
+	section {
+		position: relative;
+		top: 200px;
+		margin:  5% 2.5%;
+		max-width: none;
+		height: inherit;
+		width: 95%;
 	}
 
 	#portrait {
 		position: relative;
 		float: none;
-		text-align: center;
-		display: inline-block;
+		width: 40%
 	}
 	#biography {
-		position: absolute;
-		bottom: 25%;
-		left: 25%;
+		position: initial;
+		margin-bottom: 5%;
 	}
 	aside {
-		margin-left: 20px;
+		float: none;
+		display: inline-block;
+		width: 90%;
+		margin: 0 5% 5% 5%;
+	}
+	.connectImages {
+		float: left;
+	}
+	ul {
+		padding-left: 5%;
 	}
 	.portfolioImages {
 		height: 100px;
-		width: 80%;
-		display: block;
-		margin: 40px auto;
+		width: 40%;
+		display: inline-block;
+		float: left;
+		margin: 5%
+		
 	}
 
 	.inputs {
-		width: 360px;
+		width: 100%;
 	}
 
 	textarea {
-		width: 360px;
+		width: 100%;
 	}	
 }
-@media screen and (max-width: 640px ) {
-
 	
 	
 }
